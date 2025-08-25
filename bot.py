@@ -259,3 +259,17 @@ if __name__ == "__main__":
     if not TOKEN:
         raise SystemExit("DISCORD_TOKEN .env dosyasında bulunamadı.")
     bot.run(TOKEN)
+
+
+// Sunucu oluşturma ve proje aktivitesi sağlama.
+const express = require('express');
+const app express();
+const port 3000;
+// Web sunucu
+app.get('/', (req, res) => {
+res.sendStatus(200);
+});
+app.listen(port, () => {
+console.log('Sunucu $(port) numaralı bağlantı noktasında yürütülüyor.");
+});
+client.login(process.env.token)
